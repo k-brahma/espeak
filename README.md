@@ -26,10 +26,10 @@ docker run -e TEXT="Lorem ipsum dolor sit amet" -v $(pwd)/mnt:/mnt latin-tts
 PowerShellでの実行:
 ```powershell
 # カレントディレクトリのパスを使用する場合
-docker run -e TEXT="Lorem ipsum dolor sit amet" -v ${PWD}/mnt:/mnt latin-tts
+docker run -e TEXT="Quo usque tandem abutere, Catilina, patientia nostra? Quam diu etiam furor iste tuus nos eludet?" -v ${PWD}/mnt:/mnt latin-tts
 
 # または絶対パスを使用する場合（より確実な方法）
-docker run -e TEXT="Lorem ipsum dolor sit amet" -v C:\path\to\your\project\mnt:/mnt latin-tts
+docker run -e TEXT="Quo usque tandem abutere, Catilina, patientia nostra? Quam diu etiam furor iste tuus nos eludet?" -v C:\path\to\your\project\mnt:/mnt latin-tts
 ```
 
 PowerShellでは、以下の点に注意が必要です：
